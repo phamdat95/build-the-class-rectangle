@@ -14,7 +14,7 @@
             return width*height;
         };
         this.getPerimeter=function () {
-            return width+height;
+            return (width+height)*2;
         };
         this.setRectangle=function (width, height) {
             this.width=width;
@@ -30,7 +30,7 @@
     rectangle.setRectangle(180,100);
     var area = rectangle.getArea();
     var perimeter = rectangle.getPerimeter();
-    document.write('Area: '+area+", "+"Perimeter: "+perimeter);
+    document.write('<br>'+'Area: '+area+", "+"Perimeter: "+perimeter);
 </script>
 </body>
 </html>
